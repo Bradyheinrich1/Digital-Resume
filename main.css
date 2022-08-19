@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    background-color: #131415;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 31, 31);
+}
+
+.navitem {
+    color: white;
+    background-color: rgb(28, 31, 31);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navitem:hover {
+    color:#2fd0e9;
+}
+/* Container */
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 650px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 850px;
+    }
+  }
+
+
+/* Hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.herotext h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+.herotext {
+    color: #adb0b1;
+    font-size: .9em;
+    max-width: 400px;
+}
+
+.herotext p {
+    margin-bottom: 25px;
+}
+
+.heroimage img {
+    border-radius: 300px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.emaillink {
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+}
+
+.emaillink:hover {
+    color:#2fd0e9; 
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 50px;
+}
+
+.socials a:hover {
+    color:#2fd0e9; 
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .socials {
+       display: none;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+}
+
+/* Skills */
+
+.skills {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.sectionhead {
+    color: white;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li{
+    color: #adb0b1;
+}
+
+.techstacks {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    margin: 0px 10px;
+}
+
+.techstackcard p {
+    font-size: .85em;
+    font-weight: 600;
+    color: #adb0b1;
+    border: solid #adb0b1 1px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+/* Work HJistory */
+
+.workhistory{
+    color: white;
+}
+
+.jobdates {
+    padding: 5px;
+    margin: 5px;
+}
+
+.jobdescription {
+    color: #adb0b1;
+}
+
+.jobdates {
+    color: #adb0b1;
+}
+
+.jobtitle {
+    color: white;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.linebreak {
+    height: 1px;
+    background-color: #adb0b1;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+
+.footer {
+    height: 50px;
+    background-color: rgb(28, 31, 31);
+
+}
